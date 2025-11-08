@@ -1,0 +1,27 @@
+{
+  "name": "ai-assessment-app",
+  "version": "1.0.0",
+  "description": "AI-powered text assessment application with OpenAI and Supabase",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "cd frontend && npm run build",
+    "install-all": "npm install && cd frontend && npm install"
+  },
+  "keywords": [
+    "ai",
+    "assessment",
+    "openai",
+    "supabase",
+    "vercel"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.3",
+    "openai": "^4.26.0"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.1"
+  }
+}
