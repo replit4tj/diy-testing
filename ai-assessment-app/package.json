@@ -22,6 +22,12 @@
     "openai": "^4.26.0"
   },
   "devDependencies": {
-    "vercel": "^33.0.1"
+    "vercel": "^48.9.0"
+  },
+  "overrides": {
+    "esbuild": "^0.25.0",
+    "undici": "^6.0.0",
+    "path-to-regexp": "^8.0.0",
+    "tar": "^7.0.0"
   }
 }
