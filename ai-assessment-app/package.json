@@ -4,7 +4,7 @@
   "description": "AI-powered text assessment application with OpenAI and Supabase",
   "type": "module",
   "scripts": {
-    "dev": "vercel dev",
+    "dev": "next dev",
     "build": "cd frontend && npm run build",
     "install-all": "npm install && cd frontend && npm install"
   },
