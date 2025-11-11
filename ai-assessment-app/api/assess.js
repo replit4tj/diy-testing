@@ -1,5 +1,5 @@
-import OpenAI from 'openai';
-import { createClient } from '@supabase/supabase-js';
+const OpenAI = require('openai').default;
+const { createClient } = require('@supabase/supabase-js');
 
 /**
  * Vercel Serverless Function for AI Assessment
@@ -12,7 +12,7 @@ import { createClient } from '@supabase/supabase-js';
  * 4. Returns the assessment to the frontend
  */
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   // Set CORS headers
   res.setHeader('Access-Control-Allow-Credentials', true);
   res.setHeader('Access-Control-Allow-Origin', '*');
